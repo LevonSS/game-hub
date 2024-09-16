@@ -10,7 +10,7 @@ const ColorModeSwitch = () => {
         onChange={toggleColorMode}
         id="color mode"
       />
-      <FormLabel htmlFor="color mode" mb="0">
+      <FormLabel whiteSpace='nowrap' htmlFor="color mode" mb="0">
         Datk Mode
       </FormLabel>
     </HStack>
